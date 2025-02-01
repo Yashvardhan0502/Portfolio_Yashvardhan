@@ -15,7 +15,6 @@ This is a personal portfolio website showcasing my skills, projects, and experie
 Portfolio_yashvardhan/
 │── index.html          # Main HTML file
 │── backend/            # Backend server files (Node.js, Express, MongoDB)
-│── frontend/           # Frontend React application
 │── assets/             # CSS, JavaScript, and Images
 │   ├── css/            # Stylesheets
 │   ├── js/             # JavaScript files
@@ -29,44 +28,27 @@ Portfolio_yashvardhan/
 - React.js
 - Node.js
 
-## 📦 Instructions to Run the Project
-### Clone the Repository
-```sh
-git clone https://github.com/Yashvardhan0502/Portfolio_yashvardhan.git
-cd Portfolio_yashvardhan
-```
-
-### Install Dependencies
-#### Backend
-```sh
-cd backend
-npm install
-```
-#### Frontend
-```sh
-cd frontend
-npm install
-```
-
-### Set Up Environment Variables
-Create a `.env` file in the `backend` folder and add the following:
-```sh
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-JWT_SECRET=your_jwt_secret_key
-```
-
-### Start the Backend Server
-```sh
-cd backend
-npm start
-```
-
-### Start the Frontend
-```sh
-cd frontend
-npm start
-```
+## 📦 Setup Instructions
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Yashvardhan0502/Portfolio_yashvardhan.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd Portfolio_yashvardhan
+   ```
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+4. **Run the development server:**
+   ```sh
+   npm start
+   ```
+5. **Open the application in your browser at:**
+   ```sh
+   http://localhost:3000
+   ```
 
 ## 🎨 Customization
 - Modify the `assets/css/style.css` file to change styles.
